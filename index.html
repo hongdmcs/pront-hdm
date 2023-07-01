@@ -1,1 +1,61 @@
 
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>당신의 한끼는? - Home</title>
+</head>
+
+<body>
+    <h1>이번 끼니는...</h1>
+    <div class="container">
+        <div class="options">
+            <h2>종류 선택</h2>
+            <label>
+                <input type="checkbox" name="category" value="soup">
+                국물 요리
+            </label>
+            <label>
+                <input type="checkbox" name="category" value="rice">
+                밥 요리
+            </label>
+            <label>
+                <input type="checkbox" name="category" value="bread">
+                빵/떡 요리
+            </label>
+            <label>
+                <input type="checkbox" name="category" value="noodle">
+                면 요리
+            </label>
+            <label>
+                <input type="checkbox" name="category" value="fry">
+                튀김/전
+            </label>
+        </div>
+        <div class="options">
+            <h2>맵기 선택</h2>
+            <label>
+                <input type="checkbox" name="spicy" value="mild">
+                안매운음식
+            </label>
+            <label>
+                <input type="checkbox" name="spicy" value="spicy">
+                매운음식
+            </label>
+        </div>
+        <button id="recommend-btn">음식 추천</button>
+        <div id="result"></div>
+        &copy 2023. HONGDMS All rights Copyrights.
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+ 
+</body>
+
+</html>
