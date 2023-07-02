@@ -18,7 +18,7 @@ recommendBtn.addEventListener('click', () => {
         const category = getRandomElement(selectedCategories);
         const spice = getRandomElement(selectedSpiciness);
         const food = getRandomFood(category, spice);
-        resultDiv.textContent = `${food}을 추천드립니다! 맛있겠쥬? 츄릅`;
+        resultDiv.textContent = `${food} 추천드립니다! 맛있겠쥬? 츄릅`;
     }
 });
 
